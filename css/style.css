@@ -1,0 +1,347 @@
+/*
+Author Name: Rakibul Hasan;
+Emai Address:rakibulhasan80higri@gmil.com;
+Site URL:www.80-hijri.com;
+GPL license:3.4.1;
+*/
+
+/*
+====Index====
+1.Fusce at
+2.Facilisis
+3.Ante donec
+4.Blandit rhoncus
+5.Placerat
+*/
+
+/*css for nav--------------------------------------*/
+.nav-bg{
+	background: #edeff1;
+	padding: 30px 0px;
+}
+.nav-bg ul li a{
+	color: black;
+	margin-right: 15px;
+}
+.nav-bg ul li a:hover{
+	transform: scale(1.5);
+	color: maroon;
+}
+a.nav-link.js-scroll-trigger.active {
+    background: #dd4b2b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 21px;
+    border: none;
+}
+/*fsce section start-------------------------------------*/
+.header{
+	background: url(../img/banner-main.png)top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+
+}
+
+.header::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+	background: white;
+
+
+}
+
+.head-title{
+	text-align: center;
+	color: white;
+	padding-top: 440px;
+}
+.head-title h2{
+	font-size: 50px;
+	margin-bottom: 30px; 
+}
+.head-title p{
+	font-size: 20px;
+}
+.head-one{
+	text-align: center;
+	color: white;
+	padding-top: 120px;
+
+}
+.head-one img{
+	
+}
+.head-one h3{
+	margin-top: 20px;
+}
+.head-one p{
+	margin-top: 20px;
+
+}
+.header button{
+
+
+	display: block;
+	margin: 70px auto;
+	padding: 5px 20px;
+	background: white;
+	border: none;
+	border-radius: 20px;
+}
+/*news section start---------------------------------*/
+.news{
+	text-align: center;
+	background: #edeff1;
+}
+.news-title{
+ margin-bottom: 70px;
+}
+.news-title h2{
+	
+}
+.news-one{
+
+}
+.news-one img{
+	margin-bottom: 30px;
+}
+.news-one h2{
+	margin-bottom: 15px;
+}
+.news-one p{
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+
+.news-one button {
+	padding: 10px 30px;
+	background: white;
+	border: none;
+	border-radius: 20px;
+}
+/*newslatter section start------------------------*/
+.newslatter{
+	background: url(../img/Panakeia_10.png)top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	color: white;
+	text-align: center;
+}
+.cstm-btn{
+	width: 98%;
+	padding: 10px 20px;
+	border-radius: 30px;
+	background: transparent;
+	border: 1px solid white;
+	position: relative;
+
+}
+.submit-btn{
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: none;
+	position: absolute;
+	top: 75%;
+	right: 4%;
+	
+}
+
+/*dolor section start--------------------------------------*/
+.dolor{
+
+}
+.dolor-one{
+
+}
+.dolor-one h2{
+	
+}
+.dolor-one p{
+	
+}
+.dolor-one button{
+	border: none;
+	padding: 5px 30px;
+	background: orange;
+	border-radius: 30px;
+	margin-top: 30px;
+	color: white;
+}
+
+.dolor-three{
+
+}
+.dolor-three button{
+	border: none;
+	padding: 5px 30px;
+	background: grey;
+	border-radius: 30px;
+	margin-top: 30px;
+	color: white;
+}
+
+
+
+.dolor-two{
+	
+}
+.dolor-two img{
+	
+}
+/* orange section start--------------------*/
+.orange{
+	background: #dd4b2b;
+}
+.org-one{
+	text-align: center;
+	color: white;
+}
+.org-one p{
+	
+}
+/*footer section start------------------------------------*/
+footer{
+	background: url(../img/Panakeia_10.png)top;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding: 70px 0;
+}
+footer p{
+
+}
+
+
+  /*media query section start----------------------------------*/
+  /*mobile device----------------------------------------------*/
+
+
+	
+
+@media(min-width: 320px) and (max-width: 500px){	
+  .head-title h2{
+	font-size: 35px;
+	margin-bottom: 20px; 
+	}
+
+	.head-one{
+	text-align: center;
+	color: white;
+	padding-top: 40px;}
+
+	.new{
+		flex-direction: column;
+	}
+	a.nav-link.js-scroll-trigger.active {
+   	width: 150px;
+   	margin: 0 auto;
+    }
+
+	a.nav-link.js-scroll-trigger{
+	text-align: center;
+
+	}
+	.head-title{
+	
+	padding-top: 150px;
+	}
+	.news-one{
+		margin-bottom: 30px;
+	}
+	.news-one img{
+		display: block;
+		margin: 0 auto;
+	}
+	.dolor-one {
+	margin-bottom: 40px;
+
+	}
+	.dolor-one button {
+		display: block;
+		margin: 10px auto;
+	}
+	.dolor-three button {
+		display: block;
+		margin: 0 auto;
+
+	}
+	.org-one {
+    text-align: center;
+    margin-bottom: 30px;
+	}
+}
+
+/*small device-------------------------------------------*/
+@media(min-width: 501px) and (max-width: 768px){
+	 
+	a.nav-link.js-scroll-trigger.active {
+   	width: 150px;
+   	margin: 0 auto;
+    }
+
+	a.nav-link.js-scroll-trigger{
+	text-align: center;
+
+	}
+	.head-title{
+	
+	padding-top: 150px;
+	}
+	.head-title h2{
+	font-size: 40px;
+	margin-bottom: 30px; 
+	}
+
+	.head-title p{
+		color: black;
+	}
+	.head-one {
+   
+    padding-top: 20px;
+	}
+	.news-one{
+		margin-bottom: 30px;
+	}
+	.dolor-one button {
+		display: block;
+		margin: 40px auto;
+	}
+	.dolor-three button {
+		display: block;
+		margin: 0 auto;
+
+	}
+	.org-one {
+    text-align: center;
+    margin-bottom: 30px;
+	}
+	.submit-btn{
+	top: 71%;
+	right: 4%;
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
